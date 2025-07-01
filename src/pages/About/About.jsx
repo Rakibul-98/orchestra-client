@@ -1,7 +1,17 @@
+import WhyChooseUs from "../Home/components/WhyChooseUs";
+import Hero from "./components/Hero";
+import Mission from "./components/Mission";
+import OurStory from "./components/OurStory";
+import VisitUs from "./components/VisitUs";
+
 export default function About() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold">About Page</h1>
+    <div className="mb-10">
+      <Hero />
+      <OurStory />
+      <WhyChooseUs />
+      <Mission />
+      <VisitUs />
     </div>
   );
 }
